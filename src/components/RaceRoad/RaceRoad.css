@@ -1,0 +1,71 @@
+.RaceRoad {
+  position: relative;
+  background-image: url("../../images/png-klev-club-lcrx-p-doroga-sverkhu-png-2.png");
+  height: 600px;
+}
+.StopRace{
+    cursor: pointer;
+    margin: 9px;
+    border: 1px solid #000;
+    background-color: #d3445c;
+    color: white;
+    font-size: 19px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.RaceInput{
+    border-radius: 4px;
+    width: 110px;
+    border: 1px solid #000;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 7px;
+}
+.RandomStart{
+    cursor: pointer;
+    margin: 9px;
+    color: white;
+    border: 1px solid #000;
+    background-color: #2278be;
+    font-size: 19px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.RaceStart{
+    cursor: pointer;
+    margin: 9px;
+    color: white;
+    border: 1px solid #000;
+    background-color: #623eb6;
+    font-size: 19px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.BlueRaceCar {
+  top: 330px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+.RedRaceCar {
+  top: 30px;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+}
+.animate-blue {
+  animation: CarAnimation;
+}
+
+.animate-red {
+  animation: CarAnimation;
+}
+
+@keyframes CarAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translate(1500px);
+  }
+}
